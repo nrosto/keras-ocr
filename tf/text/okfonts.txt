@@ -1,0 +1,40 @@
+Alegreya Sans
+Alice
+Arimo
+Arsenal
+Bitter
+Comfortaa
+Cormorant
+DejaVu Sans
+DejaVu Serif
+EB Garamond
+Exo 2
+FreeMono
+IBM Plex Sans
+Inter
+Liberation Mono
+Liberation Sans
+Liberation Serif
+Lora
+Merriweather
+Montserrat
+Mulish
+Noto Mono
+Noto Sans
+Noto Serif
+Nunito
+Old Standard TT
+Open Sans
+Oswald
+Overpass
+PT Sans
+Philosopher
+Play
+Prata
+Raleway
+Roboto
+Rounded Mplus 1c
+Rubik
+Tinos
+Ubuntu
+Vollko
