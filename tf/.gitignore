@@ -1,0 +1,10 @@
+# Files from Library
+/PDF_test
+
+# Fonts
+/text/fonts
+
+# test_images for keras-ocr
+/test_images
+
+/.ipynb_checkpoints
