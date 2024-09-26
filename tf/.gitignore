@@ -7,4 +7,8 @@
 # test_images for keras-ocr
 /test_images
 
+# ipynb checkpoints?
 /.ipynb_checkpoints
+
+# test fonts for wordlist
+/generated_images
