@@ -13,3 +13,9 @@
 # test fonts for wordlist
 /generated_images
 /images
+
+/text/backgrounds
+/text/*.zip
+
+/text/*.h5
+/text/*.csv
