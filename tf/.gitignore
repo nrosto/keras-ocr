@@ -19,3 +19,5 @@
 
 /text/*.h5
 /text/*.csv
+
+/tesseract
