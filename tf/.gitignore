@@ -21,3 +21,10 @@
 /text/*.csv
 
 /tesseract
+
+# models
+*.keras
+
+/logs
+
+*-checkpoints.ipynb
