@@ -21,6 +21,7 @@ services:
       - 8889:8888
     volumes:
       - ./workspace:/workspace
+    shm_size: "4gb"
     deploy:
       resources:
         reservations:
