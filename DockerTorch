@@ -10,11 +10,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libsm6 \
     libxext6 \
     libxrender-dev \
+    poppler-utils \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --no-cache-dir easyocr
 
 RUN pip install --no-cache-dir jupyterlab
+
+# RUN pip install trdg matplotlib Pillow==9.5.0 pdf2image pandas natsort nltk
 
 EXPOSE 8888
 
