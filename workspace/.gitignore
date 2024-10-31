@@ -3,9 +3,14 @@
 /fonts
 /generated_data
 
-/EasyOCR
+# EasyOCR
+/EasyOCR/*
+/EasyOCR/trainer/**
+!/EasyOCR/trainer/
+
 /deep-text-recognition-benchmark
 /data
 /sahOCR
 
 /.ipynb_checkpoints
+/.Trash-0

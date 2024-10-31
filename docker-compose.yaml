@@ -1,24 +1,24 @@
 services:
-  jupyter-lab:
-    build: .
-    ports:
-      - 8888:8888
-    volumes:
-      - ./tf:/tf
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 5
-              capabilities: [gpu]
+  # jupyter-lab:
+  #   build: .
+  #   ports:
+  #     - 8888:8888
+  #   volumes:
+  #     - ./tf:/tf
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 5
+  #             capabilities: [gpu]
               
   pytorch-lab:
     build:
       context: .
       dockerfile: DockerTorch
     ports:
-      - 8889:8888
+      - 8888:8888
     volumes:
       - ./workspace:/workspace
     shm_size: "32gb"
